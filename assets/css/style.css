@@ -6,6 +6,9 @@
     --primary-dash-font: 'Inter', sans-serif;
     --secondary-font: 'Macondo', cursive;
     --primary-color: #416a8e; /* A shade of blue */
+    --secondary-colour: #aa9581; /* A shade of brown */
+    --highlight-colour: #416a8e; /* A shade of blue for highlights */
+    --highlight-colour-light: #7a9fc2;
 }
 
 body {
@@ -20,3 +23,6 @@ h3 {
     color: var(--primary-color);
 }
 
+.sub-heading-color {
+    color: var (var(--highlight-colour));
+}
