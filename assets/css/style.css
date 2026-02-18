@@ -95,6 +95,25 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#events-info {
+    align-items: baseline;
+}
+
+#event-info-table {
+    align-content: end;
+}
+
+#student-discount p {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 0.2rem 0.7rem;
+    background-color: var(--highlight-color);
+    color: white;
+    font-weight: bold;
+}
+
 /* Game library cards */
 
 #new-games .card,
@@ -157,6 +176,13 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
+    }
+}
+
+/* Small devices (phones, up to 575px) */
+@media screen and (max-width: 575px) {
+    #student-discount {
+        margin-top: 0.6rem;
     }
 }
 
